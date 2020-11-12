@@ -2,3 +2,40 @@
   font-family: sans-serif;
   text-align: center;
 }
+.maxwidth90 {
+  max-width: 90px !important;
+}
+.maxwidth100 {
+  max-width: 100px !important;
+}
+.root {
+  max-width: 280px;
+  flex-grow: 1;
+}
+.media {
+  height: 140px;
+  padding: 20px;
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+}
+.width100 {
+  width: 100%;
+}
+.commaValue {
+  white-space: nowrap;
+  width: 175px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title {
+  font-weight: bold;
+  color: #17179e;
+}
+@media (max-width: 575px) {
+  .rootCard {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
