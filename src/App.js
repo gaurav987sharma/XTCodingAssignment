@@ -78,7 +78,6 @@ class App extends React.Component {
   }
   componentDidUpdate() {}
   render() {
-    const center = { justifyContent: "center", alignItems: "center" };
     const { data } = this.state;
     const yearArr = [
       2006,
